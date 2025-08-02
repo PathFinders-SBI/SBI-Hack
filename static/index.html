@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>LinkedIn Risk Analyzer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8fa;
+      margin: 0;
+      padding: 2em;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #004080;
+      margin-bottom: 1em;
+    }
+
+    form {
+      background: #fff;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      font-size: 1em;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #004080;
+      color: white;
+      border: none;
+      transition: background 0.3s ease;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0055aa;
+    }
+
+    .results {
+      max-width: 900px;
+      margin: 2em auto;
+      background: white;
+      padding: 2em;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .section {
+      margin-bottom: 2em;
+    }
+
+    .section h2 {
+      color: #004080;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+      margin-bottom: 1em;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    pre {
+      background: #f0f0f0;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+
+    .error {
+      color: red;
+      text-align: center;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+    <div class="navbar" style="background-color: #002f6c; color: white; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between;">
+    <img src="https://www.onlinesbi.sbi/sbijava/images/logo.png"
+         alt="SBI Logo"
+         style="height: 40px; background: white; padding: 4px; border-radius: 6px; box-shadow: 0 0 4px rgba(0,0,0,0.2);">
+    <div><strong>SBI ONLINE</strong></div>
+  </div>
+
+  <h1>🔍 TraceLink</h1>
+
+  <form id="analyze-form">
+    <input type="text" id="name" placeholder="Full Name" required />
+    <input type="text" id="location" placeholder="Location (e.g., India)" required />
+    <input type="text" id="api_key" placeholder="SerpAPI Key" required />
+    <button type="submit">Analyze Risk</button>
+  </form>
+
+  <div id="results" class="results" style="display: none;">
+    <div class="section" id="profile-section"></div>
+    <div class="section" id="posts-section"></div>
+    <div class="section" id="sentiment-section"></div>
+    <div class="section" id="risk-section"></div>
+  </div>
+
+  <p id="error" class="error"></p>
+
+  <script>
+    const form = document.getElementById("analyze-form");
+    const resultsDiv = document.getElementById("results");
+    const errorDiv = document.getElementById("error");
+
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+
+      // Hide old results
+      resultsDiv.style.display = "none";
+      errorDiv.textContent = "";
+
+      // Show placeholders
+      document.getElementById("profile-section").innerHTML = "<h2>👤 Top LinkedIn Profiles</h2><p>Loading...</p>";
+      document.getElementById("posts-section").innerHTML = "<h2>📢 Scraped LinkedIn Posts</h2><p>Loading...</p>";
+      document.getElementById("sentiment-section").innerHTML = "<h2>📊 Sentiment Analysis</h2><p>Processing...</p>";
+      document.getElementById("risk-section").innerHTML = "<h2>🚨 Final Risk Assessment</h2><p>Evaluating...</p>";
+
+      // Get form values
+      const name = document.getElementById("name").value.trim();
+      const location = document.getElementById("location").value.trim();
+      const api_key = document.getElementById("api_key").value.trim();
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("location", location);
+      formData.append("api_key", api_key);
+
+      try {
+        const response = await fetch("http://localhost:8081/analyze", {
+          method: "POST",
+          body: formData,
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+        console.log("✅ Response data:", data);
+
+        // Populate sections
+        document.getElementById("profile-section").innerHTML = `
+          <h2>👤 Top LinkedIn Profiles</h2>
+          <ul>
+            ${data.profiles.map(p => `
+              <li>
+                <a href="${p.link}" target="_blank">${p.title}</a><br/>
+                <small>${p.snippet}</small>
+              </li>
+            `).join("")}
+          </ul>
+        `;
+
+        document.getElementById("posts-section").innerHTML = `
+          <h2>📢 Scraped LinkedIn Posts</h2>
+          <ul>
+            ${data.scraped_posts.map(post => `<li>${post}</li>`).join("")}
+          </ul>
+        `;
+
+        document.getElementById("sentiment-section").innerHTML = `
+        <h2>📊 Sentiment Analysis</h2>
+        ${data.sentiment_analysis.map((entry, idx) => `
+          <div style="border: 1px solid #ddd; border-radius: 10px; padding: 1em; margin-bottom: 1.5em; background-color: #f9f9f9;">
+            <p><strong>📝 Post Preview:</strong><br><em>${entry.text.length > 300 ? entry.text.slice(0, 300) + '...' : entry.text}</em></p>
+            <p><strong>🔍 FinBERT Sentiment:</strong> 
+              ${entry.finbert_label === 'Positive' ? '✅' : entry.finbert_label === 'Neutral' ? '🟨' : '❌'}
+              <span style="color: ${entry.finbert_label === 'Positive' ? 'green' : entry.finbert_label === 'Neutral' ? '#a17a00' : 'red'};">
+                ${entry.finbert_label} (${(entry.finbert_score * 100).toFixed(2)}%)
+              </span>
+            </p>
+            <p><strong>📊 VADER Sentiment:</strong></p>
+            <div style="margin-top: 1em;">
+            ${["pos", "neu", "neg"].map(sent => {
+              const percent = (entry.vader[sent] * 100).toFixed(1);
+              const label = sent === "pos" ? "🟢 Positive" : sent === "neu" ? "🟡 Neutral" : "🔴 Negative";
+              const barColor = sent === "pos" ? "green" : sent === "neu" ? "orange" : "red";
+              return `
+                <p style="margin: 0.3em 0;"><strong>${label}:</strong> ${percent}%</p>
+                <div style="
+                  background: #e0e0e0;
+                  border-radius: 8px;
+                  overflow: hidden;
+                  height: 14px;
+                  margin-bottom: 0.5em;
+                ">
+                  <div style="
+                    width: ${percent}%;
+                    background-color: ${barColor};
+                    height: 100%;
+                    transition: width 0.4s ease;
+                  "></div>
+                </div>
+              `;
+            }).join("")}
+            <p><strong>🧪 Compound Score:</strong> ${entry.vader.compound}</p>
+          </div>
+
+          </div>
+        `).join("")}
+      `;
+
+
+      document.getElementById("risk-section").innerHTML = `
+        <h2>🚨 Final Risk Assessment</h2>
+
+        <div style="margin: 1.5em 0;">
+          <div style="
+            height: 30px;
+            width: 100%;
+            background: linear-gradient(to right, green, orange, red);
+            border-radius: 30px;
+            overflow: hidden;
+            position: relative;
+          ">
+            <div style="
+              width: ${(data.final_risk.score * 100).toFixed(0)}%;
+              background-color: rgba(0,0,0,0.15);
+              height: 100%;
+              transition: width 0.5s ease-in-out;
+            "></div>
+            <div style="
+              position: absolute;
+              top: 0;
+              left: ${(data.final_risk.score * 100).toFixed(0)}%;
+              transform: translateX(-50%);
+              color: black;
+              font-weight: bold;
+              padding: 5px;
+            ">
+              ${(data.final_risk.score * 100).toFixed(0)}%
+            </div>
+          </div>
+          <p style="margin-top: 1em;">
+            <strong>🧠 Risk Level:</strong> ${
+              data.final_risk.score < 0.4 ? '🟢 Low' :
+              data.final_risk.score < 0.75 ? '🟠 Medium' : '🔴 High'
+            }
+          </p>
+          <p><strong>📌 Recently Too Positive:</strong> ${data.final_risk.recently_too_positive}</p>
+        </div>
+      `;
+
+
+        resultsDiv.style.display = "block";
+
+      } catch (err) {
+        console.error("❌ Error:", err);
+        errorDiv.textContent = "Something went wrong while analyzing. Please check the console or try again.";
+      }
+    });
+  </script>
+
+</body>
+</html>
