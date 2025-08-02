@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R4VEN - Location Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script>
+    function extractGPS(description) {
+      const latMatch = description.match(/Latitude:(.*)/);
+      const lngMatch = description.match(/Longitude:(.*)/);
+      if (latMatch && lngMatch) {
+        return {
+          lat: latMatch[1].trim(),
+          lng: lngMatch[1].trim()
+        };
+      }
+      return null;
+    }
+
+    async function loadData() {
+      const res = await fetch('/api/locations');
+      const data = await res.json();
+      const container = document.getElementById("cards");
+      container.innerHTML = "";
+
+      data.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "log-card";
+
+        const avatar = `<img src="${item.avatar_url}" class="avatar">`;
+        const username = `<h3>👤 ${item.username}</h3>`;
+
+        const embed = item.embeds[0];
+        const author = embed.author?.name || "";
+        const title = embed.title || "";
+        let description = embed.description?.replaceAll("```", "").trim() || "";
+        const footer = embed.footer?.text || "";
+
+        // Convert URLs into clickable links
+        description = description.replace(
+          /(https?:\/\/[^\s]+)/g,
+          url => `<a href="${url}" target="_blank">${url}</a>`
+        );
+
+        // Optional: boldify markdown-looking text
+        description = description.replaceAll("__**", "<strong>").replaceAll("**__", "</strong>");
+
+        // Create bullet points
+        const descLines = description.split('\n').filter(line => line.trim() !== "");
+        let infoPoints = "<ul>";
+        descLines.forEach(line => {
+          infoPoints += `<li>${line}</li>`;
+        });
+        infoPoints += "</ul>";
+
+        // Extract GPS for map
+        const gps = extractGPS(description);
+        let mapEmbed = "";
+        if (gps) {
+          mapEmbed = `
+            <iframe
+              class="map"
+              width="100%"
+              height="200"
+              frameborder="0"
+              style="border:0"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=${gps.lat},${gps.lng}&output=embed"
+              allowfullscreen>
+            </iframe>`;
+        }
+
+        card.innerHTML = `
+          ${avatar}
+          ${username}
+          <h4>🧠 ${author}</h4>
+          ${title ? `<h5>🛰️ ${title}</h5>` : ""}
+          ${infoPoints}
+          ${mapEmbed}
+          <p class="footer">📝 ${footer}</p>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    window.onload = loadData;
+  </script>
+</head>
+<body>
+  <h1>📍 FindMark </h1>
+  <div id="cards" class="card-container"></div>
+</body>
+</html>
