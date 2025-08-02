@@ -1,0 +1,546 @@
+2025-08-01 01:33:19,980 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 01:33:19,980 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 01:33:19,980 - Using binary directory: /Users/utkarshsharma/.flaredantic
+2025-08-01 01:33:19,980 - No cloudflared binary found, downloading...
+2025-08-01 01:33:19,981 - Using existing cloudflared binary at: /Users/utkarshsharma/.flaredantic/cloudflared
+2025-08-01 01:33:19,981 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 01:33:19,991 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.42.35:8000
+2025-08-01 01:33:19,991 - [33mPress CTRL+C to quit[0m
+2025-08-01 01:33:20,022 - Tunnel process started
+2025-08-01 01:33:20,022 - Starting tunnel URL extraction...
+2025-08-01 01:33:20,022 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 01:33:25,550 - Tunnel URL: [92mhttps://arch-employ-lawrence-selecting.trycloudflare.com[0m
+2025-08-01 01:34:38,186 - 127.0.0.1 - - [01/Aug/2025 01:34:38] "GET / HTTP/1.1" 200 -
+2025-08-01 01:34:42,627 - 127.0.0.1 - - [01/Aug/2025 01:34:42] "GET / HTTP/1.1" 200 -
+2025-08-01 01:34:42,755 - 127.0.0.1 - - [01/Aug/2025 01:34:42] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 01:34:43,423 - 127.0.0.1 - - [01/Aug/2025 01:34:43] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 01:34:44,103 - 127.0.0.1 - - [01/Aug/2025 01:34:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 01:34:44,247 - 127.0.0.1 - - [01/Aug/2025 01:34:44] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 01:34:45,610 - 127.0.0.1 - - [01/Aug/2025 01:34:45] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 01:35:11,634 - 127.0.0.1 - - [01/Aug/2025 01:35:11] "GET / HTTP/1.1" 200 -
+2025-08-01 01:35:11,760 - 127.0.0.1 - - [01/Aug/2025 01:35:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 01:36:37,042 - 127.0.0.1 - - [01/Aug/2025 01:36:37] "GET / HTTP/1.1" 200 -
+2025-08-01 01:36:37,607 - 127.0.0.1 - - [01/Aug/2025 01:36:37] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 01:36:38,214 - 127.0.0.1 - - [01/Aug/2025 01:36:38] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 01:36:38,986 - 127.0.0.1 - - [01/Aug/2025 01:36:38] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 01:36:39,016 - 127.0.0.1 - - [01/Aug/2025 01:36:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 01:36:48,270 - 127.0.0.1 - - [01/Aug/2025 01:36:48] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 02:03:16,753 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 02:03:16,753 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 02:03:16,755 - Using binary directory: /Users/utkarshsharma/.flaredantic
+2025-08-01 02:03:16,755 - No cloudflared binary found, downloading...
+2025-08-01 02:03:16,755 - Using existing cloudflared binary at: /Users/utkarshsharma/.flaredantic/cloudflared
+2025-08-01 02:03:16,755 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 02:03:16,762 - Tunnel process started
+2025-08-01 02:03:16,763 - Starting tunnel URL extraction...
+2025-08-01 02:03:16,763 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 02:03:16,775 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.42.35:8000
+2025-08-01 02:03:16,775 - [33mPress CTRL+C to quit[0m
+2025-08-01 02:03:24,271 - Tunnel URL: [92mhttps://layers-pc-channels-circumstances.trycloudflare.com[0m
+2025-08-01 02:05:23,154 - 127.0.0.1 - - [01/Aug/2025 02:05:23] "GET / HTTP/1.1" 200 -
+2025-08-01 02:05:23,663 - 127.0.0.1 - - [01/Aug/2025 02:05:23] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 02:05:24,290 - 127.0.0.1 - - [01/Aug/2025 02:05:24] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 02:05:24,728 - 127.0.0.1 - - [01/Aug/2025 02:05:24] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 02:05:25,279 - 127.0.0.1 - - [01/Aug/2025 02:05:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 02:05:33,281 - 127.0.0.1 - - [01/Aug/2025 02:05:33] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 02:13:10,410 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 02:13:10,410 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 02:13:10,411 - Using binary directory: /Users/utkarshsharma/.flaredantic
+2025-08-01 02:13:10,411 - No cloudflared binary found, downloading...
+2025-08-01 02:13:10,412 - Using existing cloudflared binary at: /Users/utkarshsharma/.flaredantic/cloudflared
+2025-08-01 02:13:10,412 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 02:13:10,418 - Tunnel process started
+2025-08-01 02:13:10,419 - Starting tunnel URL extraction...
+2025-08-01 02:13:10,421 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 02:13:10,433 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.42.35:8000
+2025-08-01 02:13:10,433 - [33mPress CTRL+C to quit[0m
+2025-08-01 02:13:16,073 - Tunnel URL: [92mhttps://proportion-bathrooms-mice-pgp.trycloudflare.com[0m
+2025-08-01 02:13:37,468 - 127.0.0.1 - - [01/Aug/2025 02:13:37] "GET / HTTP/1.1" 200 -
+2025-08-01 02:13:38,079 - 127.0.0.1 - - [01/Aug/2025 02:13:38] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 02:13:38,574 - 127.0.0.1 - - [01/Aug/2025 02:13:38] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 02:13:39,116 - 127.0.0.1 - - [01/Aug/2025 02:13:39] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 02:13:39,511 - 127.0.0.1 - - [01/Aug/2025 02:13:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 02:13:44,224 - 127.0.0.1 - - [01/Aug/2025 02:13:44] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 02:22:50,700 - 127.0.0.1 - - [01/Aug/2025 02:22:50] "GET / HTTP/1.1" 200 -
+2025-08-01 02:22:51,298 - 127.0.0.1 - - [01/Aug/2025 02:22:51] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 02:22:51,809 - 127.0.0.1 - - [01/Aug/2025 02:22:51] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 16:27:59,167 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 16:27:59,167 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:6000/[0m
+2025-08-01 16:27:59,169 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 16:27:59,169 - No cloudflared binary found, downloading...
+2025-08-01 16:27:59,169 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 16:27:59,170 - Starting Cloudflare tunnel on port 6000...
+2025-08-01 16:27:59,190 - Tunnel process started
+2025-08-01 16:27:59,190 - Starting tunnel URL extraction...
+2025-08-01 16:27:59,191 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 16:27:59,192 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6000
+ * Running on http://10.150.34.207:6000
+2025-08-01 16:27:59,192 - [33mPress CTRL+C to quit[0m
+2025-08-01 16:28:05,121 - Tunnel URL: [92mhttps://housewares-inspections-dive-young.trycloudflare.com[0m
+2025-08-01 17:43:13,855 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 17:43:13,855 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:6000/[0m
+2025-08-01 17:43:13,856 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 17:43:13,856 - No cloudflared binary found, downloading...
+2025-08-01 17:43:13,857 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 17:43:13,857 - Starting Cloudflare tunnel on port 6000...
+2025-08-01 17:43:13,864 - Tunnel process started
+2025-08-01 17:43:13,865 - Starting tunnel URL extraction...
+2025-08-01 17:43:13,865 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 17:43:13,876 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6000
+ * Running on http://10.150.34.207:6000
+2025-08-01 17:43:13,876 - [33mPress CTRL+C to quit[0m
+2025-08-01 17:43:21,425 - Tunnel URL: [92mhttps://jonathan-recommend-noted-game.trycloudflare.com[0m
+2025-08-01 17:43:40,960 - 127.0.0.1 - - [01/Aug/2025 17:43:40] "GET / HTTP/1.1" 200 -
+2025-08-01 17:43:41,524 - 127.0.0.1 - - [01/Aug/2025 17:43:41] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 17:43:42,150 - 127.0.0.1 - - [01/Aug/2025 17:43:42] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 17:43:43,241 - 127.0.0.1 - - [01/Aug/2025 17:43:43] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 17:43:43,503 - 127.0.0.1 - - [01/Aug/2025 17:43:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 17:43:51,498 - 127.0.0.1 - - [01/Aug/2025 17:43:51] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 17:45:51,918 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:6000/[0m
+2025-08-01 17:45:51,918 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 17:45:51,920 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 17:45:51,920 - No cloudflared binary found, downloading...
+2025-08-01 17:45:51,921 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 17:45:51,922 - Starting Cloudflare tunnel on port 6000...
+2025-08-01 17:45:51,928 - Tunnel process started
+2025-08-01 17:45:51,929 - Starting tunnel URL extraction...
+2025-08-01 17:45:51,930 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 17:45:51,942 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:6000
+ * Running on http://10.150.34.207:6000
+2025-08-01 17:45:51,942 - [33mPress CTRL+C to quit[0m
+2025-08-01 17:45:57,616 - Tunnel URL: [92mhttps://encountered-untitled-bedroom-arabic.trycloudflare.com[0m
+2025-08-01 17:46:04,558 - 127.0.0.1 - - [01/Aug/2025 17:46:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 17:56:32,672 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 17:56:32,672 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 17:56:32,674 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 17:56:32,674 - No cloudflared binary found, downloading...
+2025-08-01 17:56:32,675 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 17:56:32,675 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 17:56:32,683 - Tunnel process started
+2025-08-01 17:56:32,683 - Starting tunnel URL extraction...
+2025-08-01 17:56:32,684 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 17:56:32,692 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 17:56:32,692 - [33mPress CTRL+C to quit[0m
+2025-08-01 17:56:38,705 - Tunnel URL: [92mhttps://admissions-sandwich-constraints-acres.trycloudflare.com[0m
+2025-08-01 17:57:13,533 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 17:57:13,533 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 17:57:13,534 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 17:57:13,534 - No cloudflared binary found, downloading...
+2025-08-01 17:57:13,536 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 17:57:13,536 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 17:57:13,543 - Tunnel process started
+2025-08-01 17:57:13,544 - Starting tunnel URL extraction...
+2025-08-01 17:57:13,545 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 17:57:13,553 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 17:57:13,554 - [33mPress CTRL+C to quit[0m
+2025-08-01 17:57:19,561 - Tunnel URL: [92mhttps://gd-extremely-outlets-stick.trycloudflare.com[0m
+2025-08-01 17:57:24,027 - 127.0.0.1 - - [01/Aug/2025 17:57:24] "GET / HTTP/1.1" 200 -
+2025-08-01 17:57:24,517 - 127.0.0.1 - - [01/Aug/2025 17:57:24] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 17:57:25,126 - 127.0.0.1 - - [01/Aug/2025 17:57:25] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 17:57:25,573 - 127.0.0.1 - - [01/Aug/2025 17:57:25] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 17:57:26,134 - 127.0.0.1 - - [01/Aug/2025 17:57:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 17:57:30,951 - 127.0.0.1 - - [01/Aug/2025 17:57:30] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 18:09:39,688 - 127.0.0.1 - - [01/Aug/2025 18:09:39] "GET / HTTP/1.1" 200 -
+2025-08-01 18:09:40,165 - 127.0.0.1 - - [01/Aug/2025 18:09:40] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 18:09:40,784 - 127.0.0.1 - - [01/Aug/2025 18:09:40] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 18:09:41,226 - 127.0.0.1 - - [01/Aug/2025 18:09:41] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 18:09:47,147 - 127.0.0.1 - - [01/Aug/2025 18:09:47] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 18:19:20,550 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 18:19:20,550 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 18:19:20,552 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 18:19:20,552 - No cloudflared binary found, downloading...
+2025-08-01 18:19:20,552 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 18:19:20,552 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 18:19:20,560 - Tunnel process started
+2025-08-01 18:19:20,560 - Starting tunnel URL extraction...
+2025-08-01 18:19:20,560 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 18:19:20,570 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 18:19:20,570 - [33mPress CTRL+C to quit[0m
+2025-08-01 18:19:26,551 - Tunnel URL: [92mhttps://band-properties-infected-theory.trycloudflare.com[0m
+2025-08-01 18:19:34,559 - 127.0.0.1 - - [01/Aug/2025 18:19:34] "GET / HTTP/1.1" 200 -
+2025-08-01 18:19:35,113 - 127.0.0.1 - - [01/Aug/2025 18:19:35] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 18:19:35,670 - 127.0.0.1 - - [01/Aug/2025 18:19:35] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 18:19:36,109 - 127.0.0.1 - - [01/Aug/2025 18:19:36] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 18:19:36,420 - 127.0.0.1 - - [01/Aug/2025 18:19:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 18:19:40,390 - 127.0.0.1 - - [01/Aug/2025 18:19:40] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 18:23:22,878 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 18:23:22,879 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 18:23:22,880 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 18:23:22,881 - No cloudflared binary found, downloading...
+2025-08-01 18:23:22,882 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 18:23:22,882 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 18:23:22,888 - Tunnel process started
+2025-08-01 18:23:22,889 - Starting tunnel URL extraction...
+2025-08-01 18:23:22,889 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 18:23:22,898 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 18:23:22,898 - [33mPress CTRL+C to quit[0m
+2025-08-01 18:23:28,321 - Tunnel URL: [92mhttps://korea-wet-isolation-teen.trycloudflare.com[0m
+2025-08-01 18:23:40,885 - 127.0.0.1 - - [01/Aug/2025 18:23:40] "GET / HTTP/1.1" 200 -
+2025-08-01 18:23:41,494 - 127.0.0.1 - - [01/Aug/2025 18:23:41] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 18:23:42,113 - 127.0.0.1 - - [01/Aug/2025 18:23:42] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 18:23:42,658 - 127.0.0.1 - - [01/Aug/2025 18:23:42] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 18:23:43,029 - 127.0.0.1 - - [01/Aug/2025 18:23:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 18:23:47,565 - 127.0.0.1 - - [01/Aug/2025 18:23:47] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 22:55:34,566 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 22:55:34,566 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 22:55:34,566 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 22:55:34,567 - No cloudflared binary found, downloading...
+2025-08-01 22:55:34,568 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 22:55:34,568 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 22:55:34,588 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 22:55:34,588 - [33mPress CTRL+C to quit[0m
+2025-08-01 22:55:34,591 - Tunnel process started
+2025-08-01 22:55:34,591 - Starting tunnel URL extraction...
+2025-08-01 22:55:34,591 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 22:55:41,068 - Tunnel URL: [92mhttps://families-seriously-stem-creatures.trycloudflare.com[0m
+2025-08-01 22:56:04,799 - 127.0.0.1 - - [01/Aug/2025 22:56:04] "GET / HTTP/1.1" 200 -
+2025-08-01 22:56:05,480 - 127.0.0.1 - - [01/Aug/2025 22:56:05] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 22:56:06,094 - 127.0.0.1 - - [01/Aug/2025 22:56:06] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 22:56:07,164 - 127.0.0.1 - - [01/Aug/2025 22:56:07] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 22:56:07,356 - 127.0.0.1 - - [01/Aug/2025 22:56:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 22:56:12,646 - 127.0.0.1 - - [01/Aug/2025 22:56:12] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 22:57:13,987 - 127.0.0.1 - - [01/Aug/2025 22:57:13] "GET / HTTP/1.1" 200 -
+2025-08-01 22:57:14,548 - 127.0.0.1 - - [01/Aug/2025 22:57:14] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 22:57:15,134 - 127.0.0.1 - - [01/Aug/2025 22:57:15] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 22:57:15,171 - 127.0.0.1 - - [01/Aug/2025 22:57:15] "GET /get_target HTTP/1.1" 200 -
+2025-08-01 22:57:15,680 - 127.0.0.1 - - [01/Aug/2025 22:57:15] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 22:57:16,018 - 127.0.0.1 - - [01/Aug/2025 22:57:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 22:57:25,199 - 127.0.0.1 - - [01/Aug/2025 22:57:25] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 23:16:05,200 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 23:16:05,200 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 23:16:05,202 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 23:16:05,203 - No cloudflared binary found, downloading...
+2025-08-01 23:16:05,203 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 23:16:05,204 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 23:16:05,211 - Tunnel process started
+2025-08-01 23:16:05,212 - Starting tunnel URL extraction...
+2025-08-01 23:16:05,212 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 23:16:05,221 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 23:16:05,221 - [33mPress CTRL+C to quit[0m
+2025-08-01 23:16:10,582 - Tunnel URL: [92mhttps://promptly-county-return-pty.trycloudflare.com[0m
+2025-08-01 23:44:24,265 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 23:44:24,265 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 23:44:24,267 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 23:44:24,268 - No cloudflared binary found, downloading...
+2025-08-01 23:44:24,269 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 23:44:24,269 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 23:44:24,275 - Tunnel process started
+2025-08-01 23:44:24,276 - Starting tunnel URL extraction...
+2025-08-01 23:44:24,276 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 23:44:24,287 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 23:44:24,287 - [33mPress CTRL+C to quit[0m
+2025-08-01 23:44:30,884 - Tunnel URL: [92mhttps://uri-xbox-kitty-stopping.trycloudflare.com[0m
+2025-08-01 23:45:19,937 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-01 23:45:19,938 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-01 23:45:19,938 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-01 23:45:19,939 - No cloudflared binary found, downloading...
+2025-08-01 23:45:19,940 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-01 23:45:19,940 - Starting Cloudflare tunnel on port 8000...
+2025-08-01 23:45:19,948 - Tunnel process started
+2025-08-01 23:45:19,949 - Starting tunnel URL extraction...
+2025-08-01 23:45:19,949 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-01 23:45:19,956 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-01 23:45:19,956 - [33mPress CTRL+C to quit[0m
+2025-08-01 23:45:25,481 - Tunnel URL: [92mhttps://kitty-refined-officials-valve.trycloudflare.com[0m
+2025-08-01 23:45:32,359 - 127.0.0.1 - - [01/Aug/2025 23:45:32] "GET / HTTP/1.1" 200 -
+2025-08-01 23:45:32,882 - 127.0.0.1 - - [01/Aug/2025 23:45:32] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-01 23:45:33,480 - 127.0.0.1 - - [01/Aug/2025 23:45:33] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 23:45:34,031 - 127.0.0.1 - - [01/Aug/2025 23:45:34] "POST /location_update HTTP/1.1" 200 -
+2025-08-01 23:45:35,140 - 127.0.0.1 - - [01/Aug/2025 23:45:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-01 23:45:38,806 - 127.0.0.1 - - [01/Aug/2025 23:45:38] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:38:51,315 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 00:38:51,314 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 00:38:51,317 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 00:38:51,317 - No cloudflared binary found, downloading...
+2025-08-02 00:38:51,318 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 00:38:51,318 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 00:38:51,326 - Tunnel process started
+2025-08-02 00:38:51,326 - Starting tunnel URL extraction...
+2025-08-02 00:38:51,326 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 00:38:51,339 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 00:38:51,339 - [33mPress CTRL+C to quit[0m
+2025-08-02 00:38:57,049 - Tunnel URL: [92mhttps://accessory-fingers-perfume-promotional.trycloudflare.com[0m
+2025-08-02 00:39:02,813 - 127.0.0.1 - - [02/Aug/2025 00:39:02] "GET / HTTP/1.1" 200 -
+2025-08-02 00:39:03,371 - 127.0.0.1 - - [02/Aug/2025 00:39:03] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:39:03,970 - 127.0.0.1 - - [02/Aug/2025 00:39:03] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:39:04,307 - 127.0.0.1 - - [02/Aug/2025 00:39:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 00:39:04,450 - 127.0.0.1 - - [02/Aug/2025 00:39:04] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:39:06,793 - 127.0.0.1 - - [02/Aug/2025 00:39:06] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:40:53,455 - 127.0.0.1 - - [02/Aug/2025 00:40:53] "GET / HTTP/1.1" 200 -
+2025-08-02 00:40:53,900 - 127.0.0.1 - - [02/Aug/2025 00:40:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 00:40:59,571 - 127.0.0.1 - - [02/Aug/2025 00:40:59] "GET / HTTP/1.1" 200 -
+2025-08-02 00:40:59,706 - 127.0.0.1 - - [02/Aug/2025 00:40:59] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:41:00,270 - 127.0.0.1 - - [02/Aug/2025 00:41:00] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:41:00,595 - 127.0.0.1 - - [02/Aug/2025 00:41:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 00:41:00,819 - 127.0.0.1 - - [02/Aug/2025 00:41:00] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:41:06,530 - 127.0.0.1 - - [02/Aug/2025 00:41:06] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:41:39,230 - 127.0.0.1 - - [02/Aug/2025 00:41:39] "GET / HTTP/1.1" 200 -
+2025-08-02 00:41:39,376 - 127.0.0.1 - - [02/Aug/2025 00:41:39] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:41:39,513 - 127.0.0.1 - - [02/Aug/2025 00:41:39] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:41:39,937 - 127.0.0.1 - - [02/Aug/2025 00:41:39] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:41:41,056 - 127.0.0.1 - - [02/Aug/2025 00:41:41] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:47:05,541 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 00:47:05,541 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 00:47:05,541 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 00:47:05,541 - No cloudflared binary found, downloading...
+2025-08-02 00:47:05,542 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 00:47:05,542 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 00:47:05,548 - Tunnel process started
+2025-08-02 00:47:05,548 - Starting tunnel URL extraction...
+2025-08-02 00:47:05,548 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 00:47:05,553 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 00:47:05,553 - [33mPress CTRL+C to quit[0m
+2025-08-02 00:47:11,244 - Tunnel URL: [92mhttps://welding-mandate-oasis-edmonton.trycloudflare.com[0m
+2025-08-02 00:47:15,467 - 127.0.0.1 - - [02/Aug/2025 00:47:15] "GET / HTTP/1.1" 200 -
+2025-08-02 00:47:16,010 - 127.0.0.1 - - [02/Aug/2025 00:47:16] "[33mGET /banner.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:47:16,014 - 127.0.0.1 - - [02/Aug/2025 00:47:16] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:47:16,517 - 127.0.0.1 - - [02/Aug/2025 00:47:16] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:47:16,870 - 127.0.0.1 - - [02/Aug/2025 00:47:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 00:47:16,951 - 127.0.0.1 - - [02/Aug/2025 00:47:16] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:47:18,380 - 127.0.0.1 - - [02/Aug/2025 00:47:18] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:48:02,806 - 127.0.0.1 - - [02/Aug/2025 00:48:02] "GET / HTTP/1.1" 200 -
+2025-08-02 00:48:02,955 - 127.0.0.1 - - [02/Aug/2025 00:48:02] "[33mGET /banner.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:48:02,955 - 127.0.0.1 - - [02/Aug/2025 00:48:02] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:48:03,108 - 127.0.0.1 - - [02/Aug/2025 00:48:03] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:48:03,452 - 127.0.0.1 - - [02/Aug/2025 00:48:03] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:48:04,976 - 127.0.0.1 - - [02/Aug/2025 00:48:04] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:49:10,585 - 127.0.0.1 - - [02/Aug/2025 00:49:10] "GET / HTTP/1.1" 200 -
+2025-08-02 00:49:11,247 - 127.0.0.1 - - [02/Aug/2025 00:49:11] "[33mGET /banner.png HTTP/1.1[0m" 404 -
+2025-08-02 00:49:11,249 - 127.0.0.1 - - [02/Aug/2025 00:49:11] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:49:11,891 - 127.0.0.1 - - [02/Aug/2025 00:49:11] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:49:12,199 - 127.0.0.1 - - [02/Aug/2025 00:49:12] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:49:13,836 - 127.0.0.1 - - [02/Aug/2025 00:49:13] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:52:38,575 - 127.0.0.1 - - [02/Aug/2025 00:52:38] "GET / HTTP/1.1" 200 -
+2025-08-02 00:52:39,152 - 127.0.0.1 - - [02/Aug/2025 00:52:39] "[33mGET /banner.png HTTP/1.1[0m" 404 -
+2025-08-02 00:52:39,153 - 127.0.0.1 - - [02/Aug/2025 00:52:39] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:52:39,794 - 127.0.0.1 - - [02/Aug/2025 00:52:39] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:52:40,113 - 127.0.0.1 - - [02/Aug/2025 00:52:40] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:52:41,713 - 127.0.0.1 - - [02/Aug/2025 00:52:41] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:52:46,434 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "GET / HTTP/1.1" 200 -
+2025-08-02 00:52:46,825 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,827 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/css/jquery.smartmenus.bootstrap-4.css HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,828 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/css/generic_style.css?v=3 HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,829 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/js/bootstrap.bundle-5.3.3.min.js HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,829 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/js/jquery-3.7.1.min.js HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,834 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/js/jquery.smartmenus.bootstrap-4.js HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,835 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/css/bootstrap-5.3.3.min.css HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,836 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/js/generic_common.js?v=3 HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,837 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/css/bootstrap-select.css HTTP/1.1[0m" 404 -
+2025-08-02 00:52:46,838 - 127.0.0.1 - - [02/Aug/2025 00:52:46] "[33mGET /sbijava/js/jquery.smartmenus.min.js HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,370 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/arrow.png HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,434 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/ybbi_corp.png HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,544 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner51.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,545 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner9.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,546 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/icon-pause.png HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,548 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/icon-play.png HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,549 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:52:47,552 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner8.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,552 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner3.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,553 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner6.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,554 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner10.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,554 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner12.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,557 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner14.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,558 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner40.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,558 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner33.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,560 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner35.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,560 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner29.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,561 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner1.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,562 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner11.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,568 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner24.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,569 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner4.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,570 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner5.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,571 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner36.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,572 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/PPF_acc_opening.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,572 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "[33mGET /sbijava/images/banner25.jpg HTTP/1.1[0m" 404 -
+2025-08-02 00:52:47,898 - 127.0.0.1 - - [02/Aug/2025 00:52:47] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:53:25,708 - 127.0.0.1 - - [02/Aug/2025 00:53:25] "GET / HTTP/1.1" 200 -
+2025-08-02 00:53:25,860 - 127.0.0.1 - - [02/Aug/2025 00:53:25] "[33mGET /banner.png HTTP/1.1[0m" 404 -
+2025-08-02 00:53:25,862 - 127.0.0.1 - - [02/Aug/2025 00:53:25] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:53:26,098 - 127.0.0.1 - - [02/Aug/2025 00:53:26] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:53:26,437 - 127.0.0.1 - - [02/Aug/2025 00:53:26] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:53:28,075 - 127.0.0.1 - - [02/Aug/2025 00:53:28] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:56:36,027 - 127.0.0.1 - - [02/Aug/2025 00:56:36] "GET / HTTP/1.1" 200 -
+2025-08-02 00:56:36,644 - 127.0.0.1 - - [02/Aug/2025 00:56:36] "[33mGET /static/banner.png HTTP/1.1[0m" 404 -
+2025-08-02 00:56:36,646 - 127.0.0.1 - - [02/Aug/2025 00:56:36] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 00:56:37,267 - 127.0.0.1 - - [02/Aug/2025 00:56:37] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:56:37,586 - 127.0.0.1 - - [02/Aug/2025 00:56:37] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 00:56:38,640 - 127.0.0.1 - - [02/Aug/2025 00:56:38] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 02:02:05,620 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 02:02:05,621 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 02:02:05,622 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 02:02:05,623 - No cloudflared binary found, downloading...
+2025-08-02 02:02:05,623 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 02:02:05,623 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 02:02:05,630 - Tunnel process started
+2025-08-02 02:02:05,631 - Starting tunnel URL extraction...
+2025-08-02 02:02:05,631 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 02:02:05,642 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 02:02:05,642 - [33mPress CTRL+C to quit[0m
+2025-08-02 02:02:11,313 - Tunnel URL: [92mhttps://conviction-returns-seasons-cellular.trycloudflare.com[0m
+2025-08-02 02:03:15,240 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 02:03:15,240 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 02:03:15,242 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 02:03:15,243 - No cloudflared binary found, downloading...
+2025-08-02 02:03:15,243 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 02:03:15,243 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 02:03:15,250 - Tunnel process started
+2025-08-02 02:03:15,250 - Starting tunnel URL extraction...
+2025-08-02 02:03:15,250 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 02:03:15,262 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 02:03:15,262 - [33mPress CTRL+C to quit[0m
+2025-08-02 02:03:20,979 - Tunnel URL: [92mhttps://respect-species-necklace-median.trycloudflare.com[0m
+2025-08-02 02:03:27,111 - 127.0.0.1 - - [02/Aug/2025 02:03:27] "GET / HTTP/1.1" 200 -
+2025-08-02 02:03:27,694 - 127.0.0.1 - - [02/Aug/2025 02:03:27] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 02:03:28,324 - 127.0.0.1 - - [02/Aug/2025 02:03:28] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 02:03:29,440 - 127.0.0.1 - - [02/Aug/2025 02:03:29] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 02:03:30,227 - 127.0.0.1 - - [02/Aug/2025 02:03:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 02:03:31,528 - 127.0.0.1 - - [02/Aug/2025 02:03:31] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:05:29,128 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 21:05:29,129 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 21:05:29,131 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 21:05:29,131 - No cloudflared binary found, downloading...
+2025-08-02 21:05:29,131 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 21:05:29,131 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 21:05:29,151 - Tunnel process started
+2025-08-02 21:05:29,152 - Starting tunnel URL extraction...
+2025-08-02 21:05:29,152 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 21:05:29,154 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 21:05:29,154 - [33mPress CTRL+C to quit[0m
+2025-08-02 21:08:05,641 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 21:08:05,641 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 21:08:05,643 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 21:08:05,643 - No cloudflared binary found, downloading...
+2025-08-02 21:08:05,644 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 21:08:05,645 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 21:08:05,652 - Tunnel process started
+2025-08-02 21:08:05,652 - Starting tunnel URL extraction...
+2025-08-02 21:08:05,652 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 21:08:05,664 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 21:08:05,664 - [33mPress CTRL+C to quit[0m
+2025-08-02 21:08:11,229 - Tunnel URL: [92mhttps://social-focusing-objectives-latino.trycloudflare.com[0m
+2025-08-02 21:08:17,209 - 127.0.0.1 - - [02/Aug/2025 21:08:17] "GET / HTTP/1.1" 200 -
+2025-08-02 21:08:17,782 - 127.0.0.1 - - [02/Aug/2025 21:08:17] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 21:08:18,380 - 127.0.0.1 - - [02/Aug/2025 21:08:18] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:08:18,900 - 127.0.0.1 - - [02/Aug/2025 21:08:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 21:08:18,902 - 127.0.0.1 - - [02/Aug/2025 21:08:18] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:09:12,119 - 127.0.0.1 - - [02/Aug/2025 21:09:12] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:09:33,885 - 127.0.0.1 - - [02/Aug/2025 21:09:33] "GET / HTTP/1.1" 200 -
+2025-08-02 21:09:34,480 - 127.0.0.1 - - [02/Aug/2025 21:09:34] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 21:09:35,118 - 127.0.0.1 - - [02/Aug/2025 21:09:35] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:09:35,489 - 127.0.0.1 - - [02/Aug/2025 21:09:35] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:09:54,651 - 127.0.0.1 - - [02/Aug/2025 21:09:54] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:13:17,546 - 127.0.0.1 - - [02/Aug/2025 21:13:17] "GET / HTTP/1.1" 200 -
+2025-08-02 21:13:18,080 - 127.0.0.1 - - [02/Aug/2025 21:13:18] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 21:13:18,728 - 127.0.0.1 - - [02/Aug/2025 21:13:18] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:13:19,086 - 127.0.0.1 - - [02/Aug/2025 21:13:19] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:13:27,278 - 127.0.0.1 - - [02/Aug/2025 21:13:27] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:50:15,425 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 21:50:15,425 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 21:50:15,426 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 21:50:15,426 - No cloudflared binary found, downloading...
+2025-08-02 21:50:15,426 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 21:50:15,426 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 21:50:15,429 - Tunnel process started
+2025-08-02 21:50:15,429 - Starting tunnel URL extraction...
+2025-08-02 21:50:15,429 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 21:50:15,442 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 21:50:15,442 - [33mPress CTRL+C to quit[0m
+2025-08-02 21:50:21,411 - Tunnel URL: [92mhttps://counter-commons-pressed-develop.trycloudflare.com[0m
+2025-08-02 21:50:58,185 - 127.0.0.1 - - [02/Aug/2025 21:50:58] "GET / HTTP/1.1" 200 -
+2025-08-02 21:50:58,780 - 127.0.0.1 - - [02/Aug/2025 21:50:58] "[33mGET /dwebhook.js HTTP/1.1[0m" 404 -
+2025-08-02 21:50:59,365 - 127.0.0.1 - - [02/Aug/2025 21:50:59] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:51:00,407 - 127.0.0.1 - - [02/Aug/2025 21:51:00] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:51:01,113 - 127.0.0.1 - - [02/Aug/2025 21:51:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-02 21:51:02,587 - 127.0.0.1 - - [02/Aug/2025 21:51:02] "POST /location_update HTTP/1.1" 200 -
+2025-08-02 21:52:39,693 - 127.0.0.1 - - [02/Aug/2025 21:52:39] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+2025-08-02 21:53:22,601 - 127.0.0.1 - - [02/Aug/2025 21:53:22] "[33mPOST /analyze HTTP/1.1[0m" 404 -
+2025-08-02 21:59:07,027 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 21:59:07,028 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 21:59:07,029 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 21:59:07,029 - No cloudflared binary found, downloading...
+2025-08-02 21:59:07,031 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 21:59:07,032 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 21:59:07,036 - Tunnel process started
+2025-08-02 21:59:07,036 - Starting tunnel URL extraction...
+2025-08-02 21:59:07,036 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 21:59:07,046 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 21:59:07,046 - [33mPress CTRL+C to quit[0m
+2025-08-02 21:59:11,925 - Tunnel URL: [92mhttps://cure-reasoning-sue-leg.trycloudflare.com[0m
+2025-08-02 22:35:03,056 - https://github.com/linuztx/flaredantic (v0.1.4)
+2025-08-02 22:35:03,056 - [32m[+] [36mFlask server started! Running on [0mhttp://127.0.0.1:8000/[0m
+2025-08-02 22:35:03,057 - Using binary directory: /Users/pulkitgarg/.flaredantic
+2025-08-02 22:35:03,058 - No cloudflared binary found, downloading...
+2025-08-02 22:35:03,059 - Using existing cloudflared binary at: /Users/pulkitgarg/.flaredantic/cloudflared
+2025-08-02 22:35:03,059 - Starting Cloudflare tunnel on port 8000...
+2025-08-02 22:35:03,069 - Tunnel process started
+2025-08-02 22:35:03,069 - Starting tunnel URL extraction...
+2025-08-02 22:35:03,070 - Waiting for tunnel URL (timeout: 30s)...
+2025-08-02 22:35:03,077 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.150.34.207:8000
+2025-08-02 22:35:03,077 - [33mPress CTRL+C to quit[0m
+2025-08-02 22:35:10,851 - Tunnel URL: [92mhttps://jm-popularity-avoid-courses.trycloudflare.com[0m
